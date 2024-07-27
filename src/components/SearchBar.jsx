@@ -17,7 +17,7 @@ const SearchBar = ({ onSearch, search, router }) => {
         type="text"
         name=""
         id=""
-        value={search}
+        value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
         placeholder="Search"
         className="border rounded p-2 mr-2 text-black"
